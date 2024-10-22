@@ -33,7 +33,9 @@ def load_stopwords():
 stop_words = load_stopwords()
 
 # Streamlit UI
-st.title("Emotion Classification")
+st.title("Emotion Detection based on Text")
+st.markdown("This App focuses on detecting emotions from textual data using a Bidirectional Long Short-Term Memory (LSTM) neural network. The goal is to classify emotions expressed in text into categories such as joyfulness, sadness, anger, and more. By leveraging the power of LSTM networks, which are particularly effective for sequence prediction tasks, this project aims to provide accurate and efficient emotion classification.")
+st.markdown('[Visit my Github Profile](https://github.com/bintangyosua)')
 user_input = st.text_area('Please enter your text in English')
 
 # Preprocessing function
